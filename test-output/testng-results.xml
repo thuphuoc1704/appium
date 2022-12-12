@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-12T17:05:57 ICT" name="Default suite" finished-at="2022-07-12T17:06:05 ICT" duration-ms="7723">
+  <suite started-at="2022-11-16T10:28:56Z" name="Default suite" finished-at="2022-11-16T10:29:28Z" duration-ms="31799">
     <groups>
     </groups>
-    <test started-at="2022-07-12T17:05:57 ICT" name="Default test" finished-at="2022-07-12T17:06:05 ICT" duration-ms="7723">
-      <class name="testcase.ConnectApp">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testcase.ConnectApp@3c7f66c4]" started-at="2022-07-12T17:05:57 ICT" name="launchApp" finished-at="2022-07-12T17:06:03 ICT" duration-ms="5242" status="PASS">
+    <test started-at="2022-11-16T10:28:56Z" name="Default test" finished-at="2022-11-16T10:29:28Z" duration-ms="31799">
+      <class name="com.vne.testcase.DesktopApplication">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.vne.testcase.DesktopApplication@52815fa3]" started-at="2022-11-16T10:28:56Z" name="setup" finished-at="2022-11-16T10:29:15Z" duration-ms="19664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="basicTest()[pri:0, instance:testcase.ConnectApp@3c7f66c4]" started-at="2022-07-12T17:06:03 ICT" name="basicTest" finished-at="2022-07-12T17:06:05 ICT" duration-ms="2209" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="Addition()[pri:0, instance:com.vne.testcase.DesktopApplication@52815fa3]" started-at="2022-11-16T10:29:15Z" name="Addition" finished-at="2022-11-16T10:29:27Z" duration-ms="12083" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basicTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.ConnectApp@3c7f66c4]" started-at="2022-07-12T17:06:05 ICT" name="teardown" finished-at="2022-07-12T17:06:05 ICT" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcase.ConnectApp -->
+        </test-method> <!-- Addition -->
+      </class> <!-- com.vne.testcase.DesktopApplication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

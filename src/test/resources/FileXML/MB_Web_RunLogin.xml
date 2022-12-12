@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Test Suite"  parallel="false"  junit="false" annotations="JDK">
+	<listeners>
+        <listener class-name="com.vne.common.MethodListener" />
+    </listeners>
+  <test name="Login Page">
+    <classes>
+      <class name="com.vne.testcase.MBWeb_Login_Feature"/>
+    </classes>
+  </test>
+</suite>

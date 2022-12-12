@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.vne.common.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Page(failed)">
+    <classes>
+      <class name="com.vne.testcase.MBApp_Login_Feature">
+        <methods>
+          <include name="Login_02_InvalidPass"/>
+          <include name="teardown"/>
+          <include name="Login_01_InvalidEmail"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.vne.testcase.MBApp_Login_Feature -->
+    </classes>
+  </test> <!-- Login Page(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
